@@ -1,8 +1,8 @@
-# LearnMate - AI-powered Learning Assistant
+# cse-sensei - AI-powered Learning Assistant
 
-**LearnMate** is a full-stack AI-powered learning assistant for students, designed to help them interact with their course materials effectively. With **LearnMate**, students can upload course documents (PDF, PPT, Word, Excel), receive instant document summaries, interact with an intelligent chatbot, and even generate quizzes based on the uploaded content.
+**cse-sensei** is a full-stack AI-powered learning assistant for students, designed to help them interact with their course materials effectively. With **cse-sensei**, students can upload course documents (PDF, PPT, Word, Excel), receive instant document summaries, interact with an intelligent chatbot, and even generate quizzes based on the uploaded content.
 
-This project uses **FastAPI** for the backend, **Pinecone** as the vector database, and **Langchain** for interacting with language models (LLMs) like GPT-4.
+This project uses **FastAPI** for the backend, **Pinecone** as the vector database, and **Langchain** for interacting with language models (LLMs) like llama 3 and other free models.
 
 ---
 
@@ -20,8 +20,8 @@ This project uses **FastAPI** for the backend, **Pinecone** as the vector databa
 
 - **FastAPI**: Fast and asynchronous web framework for building APIs.
 - **Pinecone**: Managed vector database for efficient similarity search and storing document embeddings.
-- **Langchain**: Framework for working with language models like GPT-4 for text summarization and chat interactions.
-- **OpenAI**: Used to interact with GPT-4 for natural language understanding and responses.
+- **Langchain**: Framework for working with language models like llama 3 and other free models for text summarization and chat interactions.
+- **OpenAI**: Used to interact with llama 3 and other free models for natural language understanding and responses.
 - **Faiss**: Optional integration for local vector search (can be used with Pinecone if needed).
 
 ---
@@ -39,7 +39,7 @@ This project uses **FastAPI** for the backend, **Pinecone** as the vector databa
 
 - Python 3.8+
 - An active **Pinecone** account (for vector database).
-- An active **OpenAI API key** (for Langchain & GPT-4 integration).
+- An active **OpenAI API key** (for Langchain & llama 3 and other free models integration).
 - Install dependencies using `pip`.
 
 ### Steps to Run the Application
@@ -47,8 +47,8 @@ This project uses **FastAPI** for the backend, **Pinecone** as the vector databa
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/learnmate.git
-   cd learnmate
+   git clone https://github.com/yourusername/cse-sensei.git
+   cd cse-sensei
    ```
 
 2. Set up a virtual environment and activate it:
