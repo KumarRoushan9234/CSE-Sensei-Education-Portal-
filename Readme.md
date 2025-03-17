@@ -2,6 +2,9 @@
 
 **cse-sensei** is a full-stack AI-powered learning assistant for students, designed to help them interact with their course materials effectively. With **cse-sensei**, students can upload course documents (PDF, PPT, Word, Excel), receive instant document summaries, interact with an intelligent chatbot, and even generate quizzes based on the uploaded content.
 
+📌 **CSE Sensei** 
+🔗 **Check it out here:** 👉 [CSE Sensei](https://cse-sensei.vercel.app/)  
+
 This project uses **FastAPI** for the backend, **Pinecone** as the vector database, and **Langchain** for interacting with language models (LLMs) like llama 3 and other free models.
 
 ---
