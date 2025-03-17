@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Hide scrollbar for Webkit (Chrome, Safari) */
+/* .hide-scrollbar::-webkit-scrollbar {
+  display: none;
+} */
+/* Hide horizontal scrollbar */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar for Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+
+
+
+/* .sidebar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html, body, #__next {
+  width: 100%;a
+  height: 100%;
+  overflow: hidden;
+} */
